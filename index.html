@@ -1,0 +1,81 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Ascender Marketing</title>
+    <script
+      crossorigin
+      type="text/babel"
+      src="./components/Testimonials.js"
+    ></script>
+    <script crossorigin type="text/babel" src="./components/Banner.js"></script>
+    <script
+      crossorigin
+      type="text/babel"
+      src="./components/WhyAscender.js"
+    ></script>
+    <script
+      crossorigin
+      type="text/babel"
+      src="./components/OurStats.js"
+    ></script>
+    <script
+      crossorigin
+      type="text/babel"
+      src="./components/OurWork.js"
+    ></script>
+    <script
+      crossorigin
+      type="text/babel"
+      src="./components/OurPresence.js"
+    ></script>
+    <script
+      crossorigin
+      type="text/babel"
+      src="./components/OurBrands.js"
+    ></script>
+    <script
+      crossorigin
+      type="text/babel"
+      src="./components/OurServices.js"
+    ></script>
+    <script
+      crossorigin
+      type="text/babel"
+      src="./components/HowWeWork.js"
+    ></script>
+    <script crossorigin type="text/babel" src="./components/Footer.js"></script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script crossorigin src="./vendor/js/react.development.js"></script>
+    <script crossorigin src="./vendor/js/react-dom.development.js"></script>
+    <script type="text/javascript" src="./vendor/js/babel.js"></script>
+    <link href="./vendor/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet"> -->
+
+    <link href="./styles/styles.css" rel="stylesheet" />
+
+    <script type="text/babel">
+      // Render the component to the DOM
+      ReactDOM.render(
+        <section className="w-100 h-100">
+          <Banner />
+          <WhyAscender />
+          <OurStats />
+          <HowWeWork />
+          <OurServices />
+          <OurWork />
+          <OurBrands />
+          <Testimonials />
+          <OurPresence />
+          <Footer />
+        </section>,
+        document.getElementById("root")
+      );
+    </script>
+
+    <script src="./vendor/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
